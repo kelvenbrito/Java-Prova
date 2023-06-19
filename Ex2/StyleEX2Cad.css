@@ -1,0 +1,47 @@
+body {
+    /*cor de fundo */
+    background: rgb(95, 180, 58);
+    background: linear-gradient(90deg, rgba(95, 180, 58, 1) 9%, rgba(29, 253, 216, 1) 61%, rgba(26, 1, 219, 1) 99%);
+}
+
+.cad {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: baseline;
+
+
+}
+
+.cad input {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: 0;
+    background: #f0eaea;
+    width: 50%;
+    border: 0;
+    margin: 0 0 35px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+
+}
+
+.cad label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: 0;
+    background: #056864;
+    width: 150px;
+    border: 0;
+    margin: 0 0 35px;
+   
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.cad2 {
+    font-size: 10px;
+    color: rgb(77, 4, 4);
+    padding: 5px;
+}

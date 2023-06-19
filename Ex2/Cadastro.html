@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleEX2Cad.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+ 
+
+        <FORM NAME="cadastro">
+            <p> Por favor, preencha os campos abaixo e depois clique no botão Enviar. Caso
+                necessite apagar os dados, dê um clique no botão Limpar.<br> Muito Obrigado!
+                <br><br><br>
+            </p>
+
+            <div class="cad">
+            <label for="pnome" title="Nome">Nome</label>
+            <input type="text" name="Nome" id="pnome" placeholder="Seu Nome">
+            <br>
+            <label for="prg" title="RG">RG</label>
+            <input type="text" name="RG" id="prg" placeholder="Seu Email">
+            <br>
+
+            <label for="ptel" title="phone">Telefone</label>
+            <input type="text" name="phone" id="ptel" placeholder="00000-0000">
+            <br>
+
+
+            <label for="pemail" title="Email">Email</label>
+            <input type="text" name="Email" id="pEmail" placeholder="Seu Email">
+        </div>
+        <div class="cad2">
+            <br>
+            <h2>Sexo:</h2><br>
+            <INPUT TYPE="RADIO" NAME="sexo" VALUE="f"> Feminino <br>
+            <INPUT TYPE="RADIO" NAME="sexo" VALUE="m"> Masculino <br><br>
+                <h2> Estado Civil:</h2><br>
+            <INPUT TYPE="RADIO" NAME="civil" VALUE="s"> Solteiro <br>
+            <INPUT TYPE="RADIO" NAME="civil" VALUE="c"> Casado <br>
+            <INPUT TYPE="RADIO" NAME="civil" VALUE="e"> Enrolado <br><br>
+
+                <h2>Faixa de idade:</h2> <SELECT NAME="faixaidade">
+                <OPTION VALUE="3a10"> 3 a 10 anos </OPTION>
+                <OPTION VALUE="11a25"> 11 a 25 anos </OPTION>
+                <OPTION VALUE="26a35"> 26 a 35 anos </OPTION>
+                <OPTION VALUE="36a55"> 36 a 55 anos </OPTION>
+                <OPTION VALUE="56a90"> 56 a 90 anos </OPTION>
+                </SELECT>
+                    <br>,<br>
+
+                </div>
+
+        </FORM>
+
+
+
+
+        
+            <INPUT TYPE="SUBMIT" VALUE="Enviar os dados">
+            <INPUT TYPE="RESET" VALUE="Limpar os dados">
+            <input TYPE="button" VALUE="Voltar" onclick="parent.location='index.html'">
+            <br>
+        </div>
+        </div>
+  
+</body>
+
+</html>

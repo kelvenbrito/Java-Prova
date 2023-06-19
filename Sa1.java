@@ -40,25 +40,24 @@ public class Sa1 {
     }
 
     public void Exercicio2() {
-        int matri ;
+        int matri;
         System.out.println("Informe o numero de sua matricula");
         matri = sc.nextInt();
 
-        if(matri <= 300){
-            System.out.println(matri +": Time do Chris");
-        }else if(matri > 300 && matri <= 600){
-            System.out.println(matri +": Time do Greg");
-        }else if(matri > 600 && matri <= 900){
-            System.out.println(matri +": Time do Caruso");
-        }else{
-            System.out.println(matri +": Time do Jerome");
+        if (matri <= 300) {
+            System.out.println(matri + ": Time do Chris");
+        } else if (matri > 300 && matri <= 600) {
+            System.out.println(matri + ": Time do Greg");
+        } else if (matri > 600 && matri <= 900) {
+            System.out.println(matri + ": Time do Caruso");
+        } else {
+            System.out.println(matri + ": Time do Jerome");
         }
-
 
     }
 
-    public void Exercicio3(){
-        double mor, mac, ban, vt =0,  desc;
+    public void Exercicio3() {
+        double mor, mac, ban, vt = 0, desc;
         System.out.println("Digite a quantidade de Morangos em Kg! ");
         mor = sc.nextDouble();
         System.out.println("Digite a quantidade de Maças em Kg! ");
@@ -67,19 +66,16 @@ public class Sa1 {
         ban = sc.nextDouble();
 
         vt = (mor * 2.50) + (mac * 1.80) + (ban * 1.30);
-        System.out.println("Valor: " +vt);
+        System.out.println("Valor: " + vt);
 
-        if(mor > 8 ||ban >8 || mac >8 || vt >= 25){
-            desc = ( (vt * 10) /100);
-             vt  = vt - desc;
-             System.out.println("desconto: " +desc);
-            
-             System.out.println("Valor a ser pago: " +vt);
+        if (mor > 8 || ban > 8 || mac > 8 || vt >= 25) {
+            desc = ((vt * 10) / 100);
+            vt = vt - desc;
+            System.out.println("desconto: " + desc);
+
+            System.out.println("Valor a ser pago: " + vt);
         }
-       
-        
-       
-    }
 
+    }
 
 }
